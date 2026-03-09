@@ -1,0 +1,20 @@
+# Secretos y llaves (¡MUY IMPORTANTE!)
+.env
+backend/.env
+mobile/.env
+
+# Dependencias (Se descargan con npm install, no se suben)
+node_modules/
+backend/node_modules/
+mobile/node_modules/
+
+# Archivos de entorno de desarrollo y móvil
+.expo/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
